@@ -42,17 +42,17 @@ graph TD;
     MatchingEngine -->|esito| GUI
 ```
 
-Il sistema si compone di:
+### 📌 Il sistema si compone di:
 
-    Interfaccia grafica per interazione utente
+    -Interfaccia grafica per interazione utente
 
-    Face detector con Haar Cascade
+    -Face detector con Haar Cascade
 
-    Encoding facciale basato su histogrammi locali (LBPH)
+    -Encoding facciale basato su histogrammi locali (LBPH)
 
-    Database utenti strutturato su filesystem e file JSON
+    -Database utenti strutturato su filesystem e file JSON
 
-    Motore di confronto per il riconoscimento
+    -Motore di confronto per il riconoscimento
 
 ## 🛠 Tecnologie utilizzate
 Componente	Tecnologia
@@ -74,18 +74,21 @@ Linguaggio	Python 3.x
 
 
 
-![Registrazione](menu.png)
-![Riconoscimento](menu1.png)
+![Registrazione](menu.jpg)
+![Riconoscimento](menu1.jpg)
 
    
 ## 🧪 Esperimenti e risultati
 
-Durante la fase sperimentale sono stati raccolti campioni facciali di 15 utenti, ognuno con più acquisizioni (≈10 immagini).
-I test di autenticazione hanno mostrato:
-Metrica	Valore
-Accuracy riconoscimento	95%
-Tasso di falsi positivi	0.8%
-Tempo medio autenticazione	< 1s
+Durante la fase sperimentale sono stati raccolti **campioni facciali di 15 utenti**, ognuno con circa **10 immagini** acquisite.
+
+I test di autenticazione hanno mostrato le seguenti metriche:
+
+| 🔍 Metrica                 | 📊 Valore    |
+|---------------------------|-------------|
+| Accuracy riconoscimento   | 95%         |
+| Tasso di falsi positivi   | 0.8%        |
+| Tempo medio autenticazione | < 1 secondo |
 
 L’approccio LBPH si è dimostrato affidabile per piccoli dataset con condizioni controllate di luce e inquadratura.
 
@@ -109,5 +112,5 @@ Ecco un esempio del sistema durante la fase di riconoscimento:
 ## 👨‍💻 Autore
 
 Giovanni Previtera
-Email: [tuo@email.it]
+Email: [previtera40@gmail.com]
 GitHub: Giovanniprevitera01
