@@ -55,12 +55,15 @@ graph TD;
     -Motore di confronto per il riconoscimento
 
 ## 🛠 Tecnologie utilizzate
-Componente	Tecnologia
-Rilevamento volto	OpenCV Haar Cascade
-Estrazione feature	LBPH (Local Binary Pattern Histogram)
-Interfaccia grafica	Tkinter
-Persistenza dati	JSON + immagini su disco
-Linguaggio	Python 3.x
+
+| 🧩 Componente         | 🔧 Tecnologia                                 |
+|----------------------|-----------------------------------------------|
+| 🕵️‍♂️ Rilevamento volto   | ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?logo=opencv&logoColor=white&style=flat) Haar Cascade |
+| 🧠 Estrazione feature | LBPH (Local Binary Pattern Histogram)        |
+| 🖥️ Interfaccia grafica  | ![Tkinter](https://img.shields.io/badge/Tkinter-1E90FF?style=flat)                        |
+| 💾 Persistenza dati    | JSON + immagini su disco                     |
+| 🐍 Linguaggio          | ![Python](https://img.shields.io/badge/Python-3.x-yellow?logo=python&logoColor=white&style=flat) |
+
 
 ## 🖼️ Interfaccia grafica
 
