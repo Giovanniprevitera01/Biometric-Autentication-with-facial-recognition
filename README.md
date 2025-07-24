@@ -1,4 +1,4 @@
-# 🎓 Biometric Authentication System via Facial Recognition
+# 🎓 Biometric Authentication System with Facial Recognition
 
 Sistema biometrico per l'autenticazione tramite riconoscimento facciale, sviluppato come progetto di tesi triennale da **Giovanni Previtera**.  
 Il progetto integra moduli per acquisizione immagini, rilevamento facciale, estrazione caratteristiche, confronto biometrico, registrazione utenti e autenticazione.
@@ -103,6 +103,31 @@ Ecco un esempio del sistema durante la fase di riconoscimento:
 
 ## 📦 Struttura del progetto
 ![struttura](structure.png)
+
+## 🚀 How to Run the Project
+
+The biometric facial recognition system is designed to run locally on a standard machine with Python 3.x installed. Below are the essential steps to set up and execute the project.
+
+---
+
+### 🔧 Requirements
+
+Before running the project, make sure the following are installed:
+
+- Python 3.8 or higher
+- pip (Python package manager)
+- OpenCV
+- Tkinter
+- NumPy
+- Pillow
+- Pandas
+
+You can install the required libraries with:
+
+```bash
+pip install -r requirements.txt
+python3 script/main.py
+```
 
 ## 📎 Riferimenti
 
